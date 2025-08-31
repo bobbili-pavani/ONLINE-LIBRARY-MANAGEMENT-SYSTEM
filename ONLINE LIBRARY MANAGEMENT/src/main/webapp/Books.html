@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Books - Online Library</title>
+    <style>
+        body { font-family: Arial; background:#f0f8ff; text-align:center; margin:0; }
+        header { background:#2c3e50; color:white; padding:15px; }
+        h2 { margin:5px; color:#2c3e50; }
+        ul { list-style:none; padding:0; }
+        li { 
+            background:#fff; 
+            margin:10px auto; 
+            padding:12px; 
+            width:50%; 
+            border:1px solid #ccc;
+        }
+        button {
+            margin-left: 10px;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+       
+        </style>
+</head>
+<body>
+    <header>
+        <h1>Online Library Management</h1>
+    </header>
+
+    <!-- Slot showing counts -->
+    <div class="status">
+        <span>Total Books: <span id="totalBooks">14</span></span>
+        <span> Wishlist: <span id="wishlistCount">0</span></span>
+        <span>Cart: <span id="cartCount">0</span></span>
+    </div>
+
+    <h2>Book Categories</h2>
+    <ul>
+        <li>Java Programming 
+            <button class="wishlist" onclick="addToWishlist('Java Programming')">Wishlist</button>
+            <button class="cart" onclick="addToCart('Java Programming')">Cart</button>
+        </li>
+        <li>C Programming 
+            <button class="wishlist" onclick="addToWishlist('C Programming')">Wishlist</button>
+            <button class="cart" onclick="addToCart('C Programming')">Cart</button>
+        </li>
+        <li>Python Programming 
+            <button class="wishlist" onclick="addToWishlist('Python Programming')">Wishlist</button>
+            <button class="cart" onclick="addToCart('Python Programming')">Cart</button>
+        </li>
+       
+        
+        <li>Electrical Engineering 
+            <button class="wishlist" onclick="addToWishlist('Electrical Engineering')">Wishlist</button>
+            <button class="cart" onclick="addToCart('Electrical Engineering')">Cart</button>
+        </li>
+        <li>Mechanical Engineering 
+            <button class="wishlist" onclick="addToWishlist('Mechanical Engineering')">Wishlist</button>
+            <button class="cart" onclick="addToCart('Mechanical Engineering')">Cart</button>
+        </li>
+        <li>Civil Engineering 
+            <button class="wishlist" onclick="addToWishlist('Civil Engineering')">Wishlist</button>
+            <button class="cart" onclick="addToCart('Civil Engineering')">Cart</button>
+        </li>
+        <li>Computer Science and Data Science 
+            <button class="wishlist" onclick="addToWishlist('Computer Science and Data Science')">Wishlist</button>
+            <button class="cart" onclick="addToCart('Computer Science and Data Science')">Cart</button>
+        </li>
+        <li>Computer Science and AI & ML 
+            <button class="wishlist" onclick="addToWishlist('Computer Science and AI & ML')">Wishlist</button>
+            <button class="cart" onclick="addToCart('Computer Science and AI & ML')">Cart</button>
+        </li>
+        
+       
+    </ul>
+
+    <p id="message"></p>
+
+    
+</body>
+</html>
