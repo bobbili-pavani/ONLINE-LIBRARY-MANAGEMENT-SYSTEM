@@ -8,6 +8,9 @@ The Library Management System is a web-based project developed using HTML and CS
 <img width="1907" height="1063" alt="image" src="https://github.com/user-attachments/assets/32276179-1b31-4d62-86fd-0a6b14a3d5d2" />
 <img width="1913" height="1079" alt="image" src="https://github.com/user-attachments/assets/8f9419ee-777f-44af-8c1d-1f44e9dbe4d4" />
 <img width="1903" height="1079" alt="image" src="https://github.com/user-attachments/assets/e4d8263d-479f-4ffa-93f0-1f52129a146f" />
+<img width="1904" height="1070" alt="image" src="https://github.com/user-attachments/assets/c2b5e3e1-645a-49d4-a7b9-1b7b14904125" />
+
+
 
 
 
